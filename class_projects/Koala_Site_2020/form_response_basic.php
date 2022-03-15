@@ -27,7 +27,7 @@
 
 <p>This process will process the 'name = value' pairs for all the elements of your contact form. It will format and respond by sending an html page containing a table with the information you entered in the form.
 </p>
-
+ 
 <p>Instructions:</p>
 <ol>
   <li>To call this page use <strong>form_response_basic.php</strong> in the action attribute of your form.</li>
