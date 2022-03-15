@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<!-- author: Sabarish Mogallapalli
+date: 03/10/2022 -->
+<meta charset="UTF-8">
+<meta name="description" content="Contact Page for Koala Bear National Information Center">
+<meta name="keywords" content="koala bear, info center, foundation, donate, KBNIC, contact, contact us, phone, email, form">
+<title>Contact Page</title>
+<link rel="stylesheet" href="mystyle.css">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Oswald/Oswald-VariableFont_wght.ttf">
+
+<body>
+<header>
+<figure>
+<img src="images/koala_banner.jpg" alt="koala bear banner">
+<figcaption>Koala Bear Banner</figcaption>
+</figure>
+<h1>Contact Us</h1>
+<nav>
+    <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./faq.html">About Koalas</a></li>
+        <li><a href="./save_koalas.html">Save Koalas</a></li>
+        <li><a href = "KoalaFactSheet.pdf" target="_blank">Fun Fact Sheet</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li> <a href="https://www.savethekoala.com/about-koalas/interesting-facts/" target="_blank">Adopt</a></li>
+        <li class="active"><strong>Contact Us</strong></li>
+    </ul>
+</nav>
+</header>
+<form id="contact_form" method="post" action="form_response_basic.php">
+<h3>Feel free to send us a message, we would love to hear from you!</h3>
+<fieldset1>
+    <div>
+        <label for="firstname">First Name</label>
+        <input id="firstname" name="firstname" type="text">
+    </div>
+
+    <div>
+        <label for="lastname">Last Name</label>
+        <input id="lastname" name="lastname" type="text">
+    </div>
+    <div>
+        <label for="emailaddress">Email Address</label>
+        <input id="emailaddress" name="emailaddress" type="text">
+    </div>
+    <div>
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+            <option value="about">About Koalas</option>
+            <option value="saving">Saving Koalas</option>
+            <option value="adoption">Koala Adoption</option>
+        </select>
+    </div>
+</fieldset1>
+
+<fieldset2>
+    <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" columns="40"></textarea>
+    </div>
+    <div>
+        <input type="submit" id="button" name="button" value="Submit">
+        <input type="reset" id="button" name="button" value="Reset">
+    </div>
+</fieldset2>
+
+</body>
+</html>

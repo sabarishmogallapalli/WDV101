@@ -1,0 +1,173 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: navy;
+    margin-left: 20px;
+    background:blanchedalmond;
+}
+
+p{
+    color:darkorchid;
+    font-family:'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+}
+
+ul{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3,h4{
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h3, h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+strong.bold{
+    color: black;
+}
+
+.standout{
+    text-decoration: underline;
+}
+
+span.parantheses{
+    font-weight:bolder;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+ul.foundationBullet {
+    list-style-image: url(./images/foundation_bullet\(1\).gif);
+}
+
+ul.leaf {
+    list-style-image: url(./images/leaf.gif);
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    top: 10;
+}
+
+li a{
+    color: navy;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    float:none;
+    border-bottom: 3px solid blue;
+}
+
+li a:hover{
+    background-color: gray;
+    color: white;
+}
+
+li.menu:active{
+    color:black;
+    padding: 50px;
+}
+
+img, h1{
+    box-shadow: 10px 10px blanchedalmond;
+    border: 8px solid blue;
+    padding: 5px;
+    margin: 20px;
+}
+
+img.floatLeft{
+    float: left;
+}
+
+img.floatRight{
+    float: right;
+}
+
+form{
+    background-color:bisque;
+    width: 1000px;
+	margin: 100px auto;
+	padding: 100px;
+	border: 5px double black;
+	border-radius: 5px;
+}
+
+fieldset  {
+    width: 25em;
+    margin: 20px;
+    border:hidden;
+}
+
+fieldset div  {
+    margin: 5px 0;
+    }
+    
+    
+input, select  {
+    font-size: 1.1em;
+    padding:  1px 5px 4px;
+    border-style:ridge;
+    margin-top:5px;
+}
+
+label  {
+    width: 10em;
+    text-align: right;
+    padding-right: 0.20em;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-left: 10em;
+}
+
+input[type="checkbox"] ~ label, input[type="radio"] ~ label {
+    width: auto;
+    text-align: left;
+    padding-left: 0.4em;
+}
+
+input[type=submit], input[type=reset] {
+    color:blanchedalmond;
+    background-color:darkblue;
+    border-radius: 200px;
+    padding: 6px;
+    width: 100px;
+    margin-right: 30px;
+    }
+                        
+input[type=submit]  {
+    margin-left: 25px;
+    }

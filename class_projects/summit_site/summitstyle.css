@@ -1,0 +1,102 @@
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    color:whitesmoke;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    text-decoration: underline;
+}
+
+h2{
+    color:cornflowerblue;
+    text-align: center;
+    font-family: 'Teko',sans-serif;
+    text-decoration: overline;
+}
+
+p{
+    color:#000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul.menu{
+    list-style-type: none;
+margin: 0;
+border-right: 1px solid #bbb;
+padding: 0;
+overflow: hidden;
+background-color:cornflowerblue;
+top: 10px;
+}
+
+li.header{
+    float:left;
+    border-right: 1px solid #bbb;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color:rgb(53, 60, 67);
+  }
+
+.active{
+    background-color:#060104;
+    float:left;
+}
+
+.button {
+    background-color:cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color:rgb(53, 60, 67);    ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+figcaption {
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: left;
+}
+
+
+ol,ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+    color:rgb(53, 60, 67);
+}
+
+img{
+    border-color: #000000;
+    border-style:solid;
+    border-width: 0.125em;
+}
+
+.center{
+    text-align: center;
+}
