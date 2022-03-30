@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <!-- author: Sabarish Mogallapalli
 date: 03/10/2022 -->
 <meta charset="UTF-8">
@@ -7,16 +8,20 @@ date: 03/10/2022 -->
 <meta name="keywords" content="koala bear, info center, foundation, donate, KBNIC, contact, contact us, phone, email, form">
 <title>Contact Page</title>
 <link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="mystructure.css">
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./Oswald/Oswald-VariableFont_wght.ttf">
+</head>
 
 <body>
+<div id="container">
 <header>
 <figure>
 <img src="images/koala_banner.jpg" alt="koala bear banner">
 <figcaption>Koala Bear Banner</figcaption>
 </figure>
 <h1>Contact Us</h1>
+</header>
 <nav>
     <ul class="menu">
         <li><a href="./index.html">Home</a></li>
@@ -28,7 +33,7 @@ date: 03/10/2022 -->
         <li class="active"><strong>Contact Us</strong></li>
     </ul>
 </nav>
-</header>
+<main>
 <form id="contact_form" method="post" action="form_response_basic.php">
 <h3>Feel free to send us a message, we would love to hear from you!</h3>
 <fieldset1>
@@ -65,6 +70,11 @@ date: 03/10/2022 -->
         <input type="reset" id="button" name="button" value="Reset">
     </div>
 </fieldset2>
-
+</form>
+</main>
+<footer>
+    <p class="front">&hearts; ® © Copyright 2018 All rights reserved. Australian Koala Foundation<img src="images/koala_logo.svg" alt="koala logo" width="40" height="40" class="border"></img></p>
+</footer>
+</div>
 </body>
 </html>

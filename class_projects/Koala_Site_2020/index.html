@@ -1,13 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <!-- author: Sabarish Mogallapalli
 date: 01/12/2022 -->
+<meta charset="UTF-8">
 <meta name="description" content="Home page for Koala Bear National Information Center">
 <meta name="keywords" content="koala bear, info center, foundation, donate, KBNIC">
 <title>Koala Bear Website Main Page</title>
 <link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="mystructure.css">
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./Oswald/Oswald-VariableFont_wght.ttf">
 <style>
@@ -21,12 +22,14 @@ date: 01/12/2022 -->
 </style>
 </head>
 <body>
+<div id="container">
 <header>
 <figure>
 <img src="images/koala_banner.jpg" alt="koala bear banner">
 <figcaption>Koala Bear Banner</figcaption>
 </figure>
 <h1>Koala Bear National Information Center</h1>
+</header>
 <nav>
 <ul class="menu">
     <li class="active"><strong>Home</strong></li>
@@ -38,8 +41,7 @@ date: 01/12/2022 -->
     <li><a href="./contact.html">Contact Us</a></li>
 </ul>
 </nav>
-</header>
-<section>
+<main>
 
 <p><img src="./images/pexels-pixabay-37087.jpg" alt="black and white picture of resting koala" width="431.43" height="243"></p>
 
@@ -60,10 +62,11 @@ date: 01/12/2022 -->
 </video></p>
 
 <p>Find koala information here - Save the koala!</p>
-</section>
+</main>
+
 <footer>
-<p>&hearts; ® © Copyright 2018 All rights reserved. Australian Koala Foundation</p>
-<img src="images/koala_logo.svg" alt="koala logo" width="100" height="100"></img>
+<p class="front">&hearts; ® © Copyright 2018 All rights reserved. Australian Koala Foundation<img src="images/koala_logo.svg" alt="koala logo" width="40" height="40" class="border"></img></p>
 </footer>
+</div>
 </body>
 </html>

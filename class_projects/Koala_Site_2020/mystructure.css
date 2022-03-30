@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+main{
+    background-color: lightblue;
+    padding:15px;
+}
+
+footer{
+    padding: 5px;
+    background-color: blanchedalmond;
+    color: white;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+figcaption{
+    text-align:start;
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figure{
+    text-align: center;
+}
+
+header{
+    text-decoration: underline;
+}
+
+nav{
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+}
