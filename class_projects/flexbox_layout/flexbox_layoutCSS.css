@@ -72,3 +72,11 @@
      background-color:antiquewhite;
      color: black;
  }
+
+ @media only screen and (max-width: 767px) {
+    .box{flex-direction: column;}
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
